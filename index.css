@@ -1,0 +1,128 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-image: linear-gradient( rgba(0,0,0, 0.8), rgba(0,0,0,0.8)),
+      url(hero.jpg);
+    color: white;
+    background-size: cover;
+    background-position: center;
+    /*height: 650px; */
+    
+    
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px 80px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+.logo {
+    margin: 10px;
+}
+.header-nav {
+    padding: 20px;
+    display:flex;
+    
+}
+.header-nav a {
+    padding: 0 10px;
+}
+.header-text {
+    text-align: center;
+    margin-top: 55px;
+}
+.vetted {
+    color:rgb(189,248,78);
+}
+.get-started {
+    border-radius: 5px;
+    background: linear-gradient(to right, rgb(62, 170, 62), rgb(193, 209, 104));
+    color: white;
+    padding: 15px 25px;
+    border: 1px solid rgb(189,248,78);
+    font-size: 15px;
+    margin-bottom: 15px;
+    margin-top: 35px;
+    
+}
+.why-container {
+    padding: 50px 40px;
+    padding-left: 60px;
+  }
+  
+  .why-decagon {
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 40px;
+  }
+  
+  .why-box {
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  
+  .why-image img {
+    
+    
+    padding-top: 55px;
+  }
+  
+  .why-list {
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    word-spacing: 3px;
+    line-height: 20px;
+    width:60%;
+    
+  }
+  
+  .why-item {
+    width: 40%;
+  }
+  
+  .why-text {
+    padding-top: 15px;
+    font-size: 15px;
+    color: rgb(119, 115, 115);
+  } 
+  @media screen and (max-width: 900px) {
+      .why-list {
+          flex-direction: column;
+          
+      }
+    .why-box{
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+        
+        
+
+
+    }
+    .why-text {
+        text-align: center;
+        align-self: center;
+        width: 100%;
+    }
+    .why-title {
+        text-align: center;
+        width: 80%;
+    }
+    .why-item{
+        width: 90%;
+        text-align: center;
+    }
+  }
